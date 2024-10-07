@@ -14,8 +14,7 @@ def generate_random_points(n):
 
 testFunc = generate_random_points(5)
 testFunc
-︡765debdf-f1d5-4ca3-a0fa-bab4f3ab449b︡{"stdout":"[(0.8923757878542848, 0.31873684401185365), (0.6549422031487178, -0.6497958621192381), (0.8400831155314947, -0.9712888341776782), (-0.6100900567874661, -0.09207227610840851), (-0.36404102263920657, 0.7975860698612018)]\n"}︡{"done":true}
-︠9c86acbc-5f70-4739-82f2-b0ea9529e709s︠
+
 
 def estimate_pi(n):
     randPoints = generate_random_points(n)
@@ -30,8 +29,6 @@ def estimate_pi(n):
 testG = estimate_pi(10000)
 testG
 
-︡33842256-3c5b-4e2d-abf0-e829007f80e8︡{"stdout":"3.16680000000000\n"}︡{"done":true}
-︠b6068843-13ee-4413-b7ae-012c55e9fe0as︠
 
 def average_number_of_points_needed():
     real = RealField(12)
@@ -50,10 +47,7 @@ def average_number_of_points_needed():
 
 test = average_number_of_points_needed()
 test
-︡b00289d1-99d6-48a9-ac6d-fe7a80d2d8ae︡{"stderr":"Error in lines 13-13\n"}︡{"stderr":"Traceback (most recent call last):\n  File \"/cocalc/lib/python3.11/site-packages/smc_sagews/sage_server.py\", line 1244, in execute\n    exec(\n  File \"\", line 1, in <module>\n  File \"\", line 9, in average_number_of_points_needed\n  File \"\", line 2, in estimate_pi\n  File \"\", line 5, in generate_random_points\n  File \"src/cysignals/signals.pyx\", line 310, in cysignals.signals.python_check_interrupt\nKeyboardInterrupt\n"}︡{"done":true}
-︠3e159d66-ff40-420c-a458-9012f2036af5s︠
 
-︡1ec4fd11-30ee-40c8-acce-3f794a99af0b︡{"done":true}
 
 
 
